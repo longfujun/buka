@@ -11,7 +11,9 @@ export default (props)=>{
                     <img src="http://m.buka.cn/static/img/logo_2x.png" alt="" className="lef" />
                 </Link>
                 <span>下载APP</span>
-                <img src="http://m.buka.cn/static/img/research_2x.png" alt="" className="rit" />
+                <Link to="/search">
+                    <img src="http://m.buka.cn/static/img/research_2x.png" alt="" className="rit" />
+                </Link>
             </div>
 
         </header>

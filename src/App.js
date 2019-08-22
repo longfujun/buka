@@ -11,10 +11,10 @@ const Menu = lazy(()=>import('./pages/menu/Menu/Menu'));
 const Mine = lazy(()=>import('./pages/mine/Mine/Mine'));
 
 // 子页面
-
-
 const NotFind = lazy(()=>import('./pages/common/NotFind/NotFind'));
 const Login = lazy(()=>import('./pages/common/Login/Login'));
+const Search = lazy(()=>import('./pages/common/Search/Search'));
+
 
 
 
@@ -38,7 +38,8 @@ const AppPanel = (props)=>{
         </Switch>
 
         {/* 子页面 */}
-        
+            {/* 搜索页面 */}
+        <Route path='/search' component={Search}/>
 
         {/* 导航栏 */}
         <TabBar />
