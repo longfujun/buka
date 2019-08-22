@@ -4,6 +4,33 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #fafafa;
+    background:#fff ;
+    .left{
+        display: flex;
+        margin: 0 12px;
+        justify-content: space-between;
+        height: 49px;
+        align-items: center;
+        .lef{
+            width: 60px;
+            height: 30px;
+        }
+        span{
+            display: inline-block;
+            widows: 100px;
+            height: 28px;
+            background:#fe960e;
+            border-radius: 5px;
+            line-height: 28px;
+            color: #fff;
+            font-size: 12px;
+            padding: 0 15px;
+            margin-left: -150px;
+        }
+        .rit{
+            width: 26px;
+            height: 26px;
+        }
+    }
    
 }

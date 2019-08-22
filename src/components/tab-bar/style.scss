@@ -5,7 +5,7 @@
     left: 0;
     top:44px;
     display: flex;
-    background: yellow;
+    background: #fff;
     .tab-item{
         flex: 1;
         display: flex;
@@ -13,7 +13,7 @@
         align-items: center;
         color: #333;  
         &.active {
-            color: #b4282d;
+            color: #fe960e;
         }
     }
 }
