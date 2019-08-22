@@ -1,5 +1,6 @@
-import { createStore, combineReducers, compose } from 'redux'
+import { createStore, combineReducers, compose, applyMiddleware} from "redux";
 // 引入各个reducer模块
+import thunk from "redux-thunk"
 import user from './modules/user'
 import menu from './modules/menu'
 import home from './modules/home'
@@ -17,5 +18,7 @@ const reducer = combineReducers({
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 // 输出store
-export default createStore(reducer, composeEnhancers());
+export default createStore(reducer, composeEnhancers(
+    applyMiddleware(thunk)
+));
 
