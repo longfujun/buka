@@ -1,0 +1,19 @@
+.tab-bar{
+    width: 100%;
+    height: 49px;
+    position: fixed;
+    left: 0;
+    top:44px;
+    display: flex;
+    background: yellow;
+    .tab-item{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #333;  
+        &.active {
+            color: #b4282d;
+        }
+    }
+}
