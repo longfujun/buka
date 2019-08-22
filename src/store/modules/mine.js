@@ -1,6 +1,6 @@
 // state
 const initialState = {
-    orderlist: []
+    minelist: []
 };
 
 // reducer

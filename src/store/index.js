@@ -2,13 +2,15 @@ import { createStore, combineReducers, compose } from 'redux'
 // 引入各个reducer模块
 import user from './modules/user'
 import menu from './modules/menu'
-import order from './modules/order'
+import home from './modules/home'
+import mine from './modules/mine'
 
 // 合并多个reducer
 const reducer = combineReducers({
     user,
     menu,
-    order
+    home,
+    mine
 });
 
 // 使用redux开发者工具
