@@ -1,0 +1,18 @@
+#loading{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    h1{
+        font-size: 20px;
+        margin-top: 100px;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        font-family: "Comic Sans MS";
+        font-weight: bold;
+        text-shadow: 0 0 0.266667rem #fefcc9, 0.133333rem -0.133333rem 0.4rem #feec85, -0.266667rem -0.266667rem 0.533333rem #ffae34, 0.266667rem -0.533333rem 0.666667rem #ec760c, -0.266667rem -0.8rem 0.8rem #cd4606, 0 -1.066667rem 0.933333rem #973716, 0.133333rem -1.2rem 1.066667rem #451b0e;
+        background: url("/image/loading.jfif") no-repeat center -100px;
+        background-size: 100%;
+    }
+}

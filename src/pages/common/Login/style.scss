@@ -1,72 +1,49 @@
 #login{
-    .content{
-        .logo{
-            width: 160px;
-            margin: 20px auto;
+   margin-top: 44px;
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+   padding: 10px;
+    .center{
+        overflow-x:hidden;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        .user{
+            width: 100%;
+            line-height: 50px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            padding-left: 10px;
         }
-        .input-wrap{
-            margin: 0 10px;
-            padding: 5px 10px;
-            border-bottom: 1px solid #aaa;
-            line-height: 30px;
-            font-size: 14px;
-            display: flex;
-            color: #999;
-            input{
-                flex: 1;
-                outline: none;
-                font-size: 18px;
-                width: 100px;
-                border: none;
-            }
-            span{
-                border: 1px solid #ccc;
-                padding: 0 5px;
-                border-radius: 5px;
-                color: #555;
-            }
+        .password{
+            width: 100%;
+            border: none;
+            line-height: 50px;
+            border-bottom: 1px solid #ccc;
+            padding-left: 10px;
         }
-        .login-btn{
-            margin: 10px;
-            background: #b4282d;
-            line-height: 40px;
+        .toggle{
+            line-height: 80px;
+            color: #666;
+            text-decoration: underline ;
+        }
+        .btn{
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
             color: #fff;
+            background: #FD960D;
+            border: none;
+            border-radius: 20px 20px;
+        }
+        .footer{
             text-align: center;
-            border-radius: 5px;
-        }
-        .other-login-ways{
-            margin-top: 40px;
-            .title{
+            .change{
+                line-height: 150px;
                 color: #999;
-                font-size: 12px;
-                text-align: center;
-                line-height: 40px;
-            }
-            .login-ways{
-                width: 240px;
-                margin: 0 auto;
-                display: flex;
-                .login-item{
-                    flex: 1;
-                    display: flex;
-                    justify-content: center;
-                    img{
-                        width: 22px;
-                        height: 22px;
-                    }
-                    span{
-                        padding: 0 5px;
-                        color: #7F7F7F;
-                        font-size: 14px;
-                        line-height: 22px;
-                    }
-                    border-right: 1px solid #7F7F7F;
-                    &:last-of-type{
-                        border-right: none;
-                    }
-                }
+                font-size: 14px;
             }
         }
-        
     }
 }

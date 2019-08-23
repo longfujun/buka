@@ -1,7 +1,14 @@
 import api from '../../utils/api';
 import {get,post} from '../../utils/request';
+import hashs from './hashs'
+
+
 
 //type
+const HA = hashs["#1"]
+
+
+
 
 // state
 const initialState = {
@@ -23,6 +30,5 @@ export default (state = initialState, action)=>{
 
 //异步action
 export const requestLoginAction = () => async (dispatch) => {
-    let {data} = await post(api.RANKING_GET_DATA)
-    console.log(data);
+
 }

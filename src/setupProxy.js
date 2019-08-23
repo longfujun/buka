@@ -11,7 +11,7 @@ module.exports = function(app) {
         changeOrigin: true,
      }));
 
-     app.use(proxy('/category', {
+     app.use(proxy('/category/ajax_group', {
       target: 'http://m.buka.cn/',
       changeOrigin: true,
    }));
