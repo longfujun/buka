@@ -1,4 +1,46 @@
 #search{
-    width: 100%;
-    background: yellowgreen;
+    .top{
+        width: 100%;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .return{
+            width: 16px;
+            height: 16px;
+        }
+        .ipt{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 72%;
+            height: 40px;
+            background: #e4e5e7;
+            border-radius: 5px;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+            input{
+                width: 86%;
+                height: 40px;
+                border: none;
+                background: #e4e5e7;
+                font-size: 14px;
+                outline: none;
+            }
+        }
+        span{
+            display: inline-block;
+
+            height: 40px;
+            background:#fe960e;
+            border-radius: 5px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            padding: 0 15px;
+        }
+    }
 }
